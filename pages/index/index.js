@@ -4,10 +4,32 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    imgUrls: [
+      '/images/swiper01.jpg',
+      '/images/swiper02.jpg',
+      '/images/swiper03.jpg'
+    ],
+    indicatorDots: false,
+    autoplay: false,
+    interval: 5000,
+    duration: 1000,
+    proList:[
+      {
+        logo:"/images/pro_01.jpg",
+        title:"精英贷",
+        desc:"22周岁岁以上即可\n最快3小时下款\n件钧8万，最高20万"
+      },
+      {
+        logo:"/images/pro_02.jpg",
+        title:"月供贷",
+        desc:"不看工作，不看流水\n不限地区，无需家人签字\n最高可贷150万"
+      },
+      {
+        logo:"/images/pro_03.jpg",
+        title:"保单贷",
+        desc:"凭样版征信和保单\n官网账号密码就可进行\n最高可贷150万"
+      }
+    ]
   },
   //事件处理函数
   bindViewTap: function() {
@@ -50,5 +72,16 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  onLoad:function(){
+    this.setData({
+      test:'01'
+    })
+  },
+  toDetail:function(e){
+    console.log(e)
+    var index = e.currentTarget.dataset.index;
+    console.log(index);
   }
+
 })

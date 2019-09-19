@@ -1,0 +1,6 @@
+<!--pages/join/join.wxml-->
+<image class="banner" src="/images/about.jpg"></image>
+<view class="block">
+  <view class="block-title">关于我们</view>
+  <text class='block-desc'>asdfasdfa sdfas dfasdf asdf asdf asdfa dsf a</text>
+</view>
