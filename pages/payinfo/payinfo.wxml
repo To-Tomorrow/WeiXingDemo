@@ -1,0 +1,104 @@
+<!-- 购物明细 -->
+<view class="shoping_list_body">
+  <!-- 购物清单TITLE -->
+  <view class="shoping_list_title">购物清单</view>
+  <!--购物清单  -->
+  <view class="shoping_list">
+    <!-- 购物图片 -->
+    <image src="/images/product/1.jpg" class="shoping_list_image" mode="aspectFit"></image>
+    <!-- 物品明细 -->
+    <!-- 商品名称 --><!-- 商品数量 -->
+    <view class="shoping_list_product">
+      <view class="shoping_list_product_name">衣服</view>
+      <!-- 商品价格 -->
+      <view class="shoping_list_product_price">￥2498</view>
+    </view>
+    <view class="shoping_list_product_num">X1</view>
+  </view>
+  <view style="clear:both"></view>
+</view>
+<!-- 服务信息 -->
+<view class="serviceinfo">
+ <view class="serviceinfo_title">门店信息</view>
+  <!-- 店铺地址 -->
+  <view class="serviceinfo_addr">
+    <view>
+      <text  class="serviceinfo_addr_title">店铺地址：</text>
+    </view>
+    <view>
+    <text class="serviceinfo_addr_content">湖北武汉市江汉区解放大道688号武汉广场二楼 </text>
+    </view>
+  </view>
+  <!-- 营业员姓名 -->
+  <view class="serviceinfo_employ">
+    <view>
+      <text  class="serviceinfo_employ_title">营业员：</text>
+    </view>
+    <view>
+    <text class="serviceinfo_employ_content">张三 </text>
+    </view>
+  </view>
+  <!-- 店铺联系电话 -->
+  <view class="serviceinfo_shop_phone">
+    <view>
+      <text  class="serviceinfo_shop_phone_title">联系电话：</text>
+    </view>
+    <view>
+    <text class="serviceinfo_shop_phone_content">15071292543 </text>
+    </view>
+  </view>
+</view>
+<!-- 配送地址 -->
+<view class="customer_addr">
+ <view class="customer_addr_title">配送信息</view>
+  <view class="customer_addr_user"  >
+    <view>陈佳康</view>
+    <view class="customer_addr_user_phone" style="margin-left:20rpx;">15071292543</view>
+  </view>
+  <view class="serviceinfo_addr">
+    <view>
+      <text  class="serviceinfo_addr_title">店铺地址：</text>
+    </view>
+    <view>
+    <text class="serviceinfo_addr_content">湖北武汉市江汉区解放大道688号武汉广场二楼 </text>
+    </view>
+  </view>
+  <!-- 营业员姓名 -->
+  <view class="serviceinfo_employ">
+    <view>
+      <text  class="serviceinfo_employ_title">收货人：</text>
+    </view>
+    <view>
+    <text class="serviceinfo_employ_content">张三 </text>
+    </view>
+  </view>
+  <!-- 店铺联系电话 -->
+  <view class="serviceinfo_shop_phone">
+    <view>
+      <text  class="serviceinfo_shop_phone_title">联系电话：</text>
+    </view>
+    <view>
+    <text class="serviceinfo_shop_phone_content">15071292543 </text>
+    </view>
+  </view>
+</view>
+
+<!-- 买家留言 -->
+<view>留言</view>
+<textarea>买家留言</textarea>
+<!-- 订单金额 -->
+<view>订单金额</view>
+<view>￥2498</view>
+<!-- 商品总价 -->
+<view>商品总价</view>
+<view>￥2498</view>
+<!-- 运费 -->
+<view>运费</view>
+<view>+￥2498</view>
+
+<!-- 会员固定折扣 -->
+<view>订单金额</view>
+<view>-￥250</view>
+
+<!-- 微信支付Button -->
+<button>微信支付</button>

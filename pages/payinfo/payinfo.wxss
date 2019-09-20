@@ -1,0 +1,95 @@
+/* pages/payinfo/payinfo.wxss */
+.shoping_list_body{
+	margin-bottom: 10rpx;
+	background: white;
+}
+.shoping_list_title{
+	height:80rpx;
+	line-height:80rpx;
+	border-bottom:1px solid #ccc;
+	font-size:30rpx;
+	padding-left:25rpx;
+}
+.shoping_list image{
+	display:block;
+	height:160rpx;
+	width:140rpx;
+	float:left;
+	padding:15rpx 15rpx;
+	
+}
+.shoping_list_product{
+	float:left;
+	
+	
+	margin-top:30rpx;
+}
+.shoping_list_info{
+	float:left;
+}
+
+.shoping_list_product_name{
+	font-size:30rpx;
+}
+.shoping_list_product_price{
+	color:red;
+	font-size:30rpx;
+}
+.shoping_list_product_num{
+	margin:18rpx 20rpx;
+	float:right;
+	font-size:32rpx;
+}
+
+.serviceinfo,.customer_addr{
+	background: white;
+	font-size:30rpx;
+	padding-bottom:12rpx;
+	margin-bottom: 10rpx;
+}
+
+.serviceinfo_title,.customer_addr_title{
+
+	line-height:80rpx;
+	border-bottom:1px solid #ccc;
+	padding-left:25rpx;
+	
+}
+.serviceinfo_addr,.serviceinfo_employ,.serviceinfo_shop_phone{
+	
+	vertical-align: middle;
+	padding-left:25rpx;
+	display: flex;
+	flex-direction:row ;
+	align-items: center;
+	margin-top:12rpx;
+	
+}
+.serviceinfo_addr{
+	
+	
+}
+
+
+.serviceinfo_addr_title,.serviceinfo_employ_title,.serviceinfo_shop_phone_title{
+	display: block;
+	width:160rpx;
+	text-align-last: justify;
+	
+	
+	
+}
+.serviceinfo_addr_content,.serviceinfo_employ_content,.serviceinfo_shop_phone_content{
+	
+	display: flex;
+	
+}
+.customer_addr_content{
+	
+	padding-left:25rpx;
+}
+.customer_addr_user{
+	display:flex;padding-left:25rpx;
+}
+
+

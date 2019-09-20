@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/join/join",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/salespay/salespay",
+    "pages/payinfo/payinfo"
     
   ],
   "window": {

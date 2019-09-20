@@ -32,6 +32,4 @@ page{
   display: block;
   color:#666;
   line-height: 1.6；
-  font-size:30rpx;
-  padding:
 }
